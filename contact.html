@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>FoldZix</title>
+    <meta name="title" content="Adex" />
+    <meta
+      name="description"
+      content="This is a business agency html template made by codewithsadee"
+    />
+
+    <!-- 
+    - favicon
+  -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/svg+xml"
+    />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-bg.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slide-3.jpg" />
+  </head>
+
+  <body>
+    <!-- 
+    - #HEADER
+  -->
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="./index.html" class="logo">
+          <img
+            src="./assets/images/logo-white-2.png"
+            width="74"
+            height="24"
+            alt="Adex home"
+            class="logo-light"
+          />
+          <img
+            src="./assets/images/logo-black-2.png"
+            width="74"
+            height="24"
+            alt="Adex home"
+            class="logo-dark"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <div class="navbar-top">
+            <a href="./index.html" class="logo">
+              <img
+                src="./assets/images/logo-white-2.png"
+                width="74"
+                height="24"
+                alt="Adex home"
+              />
+            </a>
+
+            <button
+              class="nav-close-btn"
+              aria-label="close menu"
+              data-nav-toggler
+            >
+              <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+            </button>
+          </div>
+
+          <ul class="navbar-list">
+            <li>
+              <a href="./index.html" class="navbar-link">Home</a>
+            </li>
+            <li>
+              <a href="./about.html" class="navbar-link">About</a>
+            </li>
+            <li class="has-mega-menu">
+              <a href="#" class="navbar-link services-link">
+                Services
+                <ion-icon
+                  name="chevron-down-outline"
+                  class="dropdown-icon"
+                ></ion-icon>
+                <!-- Dropdown Icon -->
+              </a>
+
+              <!-- Mega Menu -->
+              <div class="mega-menu">
+                <div class="mega-menu-category">
+                  <h3>Mobile Applications</h3>
+                  <ul>
+                    <li><a href="#">Food Applications</a></li>
+                    <li><a href="#">E-commerce Applications</a></li>
+                    <li><a href="#">Social Media Applications</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu-category">
+                  <h3>Website Development</h3>
+                  <ul>
+                    <li><a href="#">Travel Websites</a></li>
+                    <li><a href="#">Hospital Websites</a></li>
+                    <li><a href="#">E-commerce Websites</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu-category">
+                  <h3>APIs</h3>
+                  <ul>
+                    <li><a href="#">Hotel APIs</a></li>
+                    <li><a href="#">Booking APIs</a></li>
+                    <li><a href="#">Payment APIs</a></li>
+                  </ul>
+                </div>
+                <div class="mega-menu-category">
+                  <h3>Graphic Designing</h3>
+                  <ul>
+                    <li><a href="#">Website UI/UX Designing</a></li>
+                    <li><a href="#">Logo Designing</a></li>
+                    <li><a href="#">Ads Poster Designing</a></li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <a href="./clients.html" class="navbar-link">Our Clients</a>
+            </li>
+          </ul>
+
+          <div class="wrapper">
+            <a href="mailto:info@email.com" class="contact-link"
+              >info@email.com</a
+            >
+            <a href="tel:001234567890" class="contact-link"
+              >00 (123) 456 78 90</a
+            >
+          </div>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-dribbble"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a href="#" class="social-link"
+                ><ion-icon name="logo-youtube"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </nav>
+
+        <a href="./contact.html" class="btn btn-primary">Contact Us</a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <div class="sectionHeader">
+      <div class="container">
+        <div class="content">
+          <h1 class="title">Contact Us</h1>
+          <p class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque,
+            nam, architecto excepturi possimus qui laborum eius quod facilis
+            ullam hic, consequatur in. Debitis alias esse magnam rem laudantium
+            aperiam possimus?
+          </p>
+        </div>
+
+        <div class="imagePart">
+          <img src="./assets/images/contactUs.png" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- 
+    - #CONTACT SECTION
+     -->
+
+    <section class="contactSection">
+      <div class="container">
+        <div class="contactContent">
+          <div class="details">
+            <h1 class="title">Content Us</h1>
+            <p class="text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam,
+              numquam quos. Illum sed hic eos repellat labore dolore veniam
+              architecto illo debitis reiciendis a nemo ullam reprehenderit
+              enim, beatae eaque.
+            </p>
+            <div class="detailCard">
+              <span class="icon"
+                ><ion-icon name="call-outline"></ion-icon
+              ></span>
+              <p class="info">7064511695</p>
+            </div>
+            <div class="detailCard">
+              <span class="icon"
+                ><ion-icon name="logo-whatsapp"></ion-icon
+              ></span>
+              <p class="info">+91 7064511695</p>
+            </div>
+            <div class="detailCard">
+              <span class="icon"
+                ><ion-icon name="location-outline"></ion-icon
+              ></span>
+              <p class="info">
+                Near Sardar Khan Masjid, <br />
+                Jagatsinghpur Odisha ,Pin_ 754103
+              </p>
+            </div>
+          </div>
+
+          <form action="" class="contactForm">
+            <input
+              type="text"
+              placeholder="Enter name"
+              class="contactInput"
+              required
+            />
+            <input
+              type="email"
+              placeholder="Enter email"
+              class="contactInput"
+              required
+            />
+
+            <textarea
+              name="message"
+              id="message"
+              class="contactInput"
+              placeholder="Message"
+            ></textarea>
+
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- 
+    - #FOOTER
+  -->
+
+    <footer class="footer">
+      <div class="container grid-list">
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo-white-2.png"
+              width="74"
+              height="24"
+              alt="Adex home"
+            />
+          </a>
+
+          <p class="footer-text">
+            &copy; 2024 FoldZix. <br />
+            All rights reserved.
+          </p>
+
+          <ul class="social-list">
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-dribbble"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="social-link">
+                <ion-icon name="logo-youtube"></ion-icon>
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Get in Touch</p>
+          </li>
+
+          <li>
+            <address class="footer-text">
+              Moonshine St. 14/05 Light City, London, United Kingdom
+            </address>
+          </li>
+
+          <li>
+            <a href="mailto:info@email.com" class="footer-link"
+              >info@email.com</a
+            >
+          </li>
+
+          <li>
+            <a href="tel:001234567890" class="footer-link"
+              >00 (123) 456 78 90</a
+            >
+          </li>
+        </ul>
+
+        <ul class="footer-list">
+          <li>
+            <p class="h4 footer-list-title">Learn More</p>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">About Us</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Our Story</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Projects</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Terms of Use</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-link">Privacy Policy</a>
+          </li>
+        </ul>
+
+        <div class="footer-list">
+          <p class="h4 footer-list-title">Our Newsletter</p>
+
+          <p class="footer-text">
+            Subscribe to our newsletter to get our news & deals delivered to
+            you.
+          </p>
+
+          <form action="" class="input-wrapper">
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Email Address"
+              required
+              class="input-field"
+            />
+
+            <button type="submit" class="submit-btn">Join</button>
+          </form>
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+  - custom js link
+-->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+  - ionicon
+-->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
