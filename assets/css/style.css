@@ -1569,6 +1569,8 @@ body.nav-active {
   margin-top: 2rem;
 }
 
+/* mobile responsive */
+
 @media (max-width: 992px) {
   .sectionHeader {
     padding: 2rem;
@@ -1600,5 +1602,3 @@ body.nav-active {
     flex-direction: column;
   }
 }
-
-/* client section */
