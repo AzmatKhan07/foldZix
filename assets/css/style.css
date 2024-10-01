@@ -1228,6 +1228,9 @@ body.nav-active {
   color: #333;
   text-decoration: none;
   font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 .mega-menu-category ul li a:hover {
@@ -1247,6 +1250,14 @@ body.nav-active {
   transform: translateY(0);
   display: block;
 }
+
+.navIcon {
+  max-width: 20px;
+  height: 20px;
+  object-fit: contain;
+}
+
+/*  */
 
 .sectionHeader {
   background-image: url(../images/hero-bg.jpg);
@@ -1499,6 +1510,65 @@ body.nav-active {
   object-fit: contain;
 }
 
+/* 
+-- product page ---
+ */
+
+.productSection {
+  margin-block: 100px;
+}
+
+.productSection .productMain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+}
+
+.productSection .productMain .productImage {
+  flex: 1;
+}
+
+.productSection .productMain .productImage img {
+  width: 100%;
+}
+
+.productSection .productMain .productDetails {
+  flex: 1;
+}
+
+.productSection .productMain .productDetails .subtitle {
+  color: var(--violet-blue-crayola);
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 0.5rem;
+}
+
+.productSection .productMain .productDetails .title {
+  font-size: 4rem;
+  color: black;
+}
+
+.productSection .productMain .productDetails .text {
+  margin-bottom: 2rem;
+}
+
+.productSection .productMain .productDetails .featureTitle {
+  font-size: 2.4rem;
+  color: black;
+  margin-bottom: 2rem;
+}
+
+.productSection .productMain .productDetails .featureList li {
+  margin-bottom: 1rem;
+}
+
+.productSection .productMain .productDetails .btn-primary {
+  background-color: var(--violet-blue-crayola);
+  color: white;
+  margin-top: 2rem;
+}
+
 @media (max-width: 992px) {
   .sectionHeader {
     padding: 2rem;
@@ -1524,6 +1594,10 @@ body.nav-active {
 
   .patherSection .pathersLogos {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .productSection .productMain {
+    flex-direction: column;
   }
 }
 
