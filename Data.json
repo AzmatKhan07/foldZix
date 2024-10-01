@@ -1,0 +1,268 @@
+{
+  "products": [
+    {
+      "product_name": "Clinic Management",
+      "product_description": "A comprehensive solution to manage all aspects of a clinic, from patient records to billing and appointments.",
+      "features": [
+        "Patient Management",
+        "Appointment Scheduling",
+        "Billing and Invoicing",
+        "Electronic Medical Records",
+        "Staff Management"
+      ]
+    },
+    {
+      "product_name": "Gym Management",
+      "product_description": "An efficient tool to manage gym memberships, classes, and payments, streamlining operations for fitness centers.",
+      "features": [
+        "Membership Management",
+        "Class Scheduling",
+        "Payment Processing",
+        "Trainer and Staff Management",
+        "Inventory Management"
+      ]
+    },
+    {
+      "product_name": "Courier & Logistics",
+      "product_description": "A solution designed for managing logistics, deliveries, and tracking shipments in real-time.",
+      "features": [
+        "Order Tracking",
+        "Delivery Scheduling",
+        "Real-time Shipment Tracking",
+        "Inventory Management",
+        "Customer Notifications"
+      ]
+    },
+    {
+      "product_name": "Hospital Management",
+      "product_description": "A robust system to manage the entire operations of a hospital, from patient care to administration.",
+      "features": [
+        "Patient Admission and Discharge",
+        "Medical Records Management",
+        "Billing and Insurance",
+        "Staff and Equipment Management",
+        "Pharmacy Integration"
+      ]
+    },
+    {
+      "product_name": "Billing Invoice",
+      "product_description": "A simple and effective tool to generate invoices and manage billing for various services.",
+      "features": [
+        "Invoice Generation",
+        "Payment Tracking",
+        "Tax Calculation",
+        "Multi-Currency Support",
+        "Customer History"
+      ]
+    },
+    {
+      "product_name": "Others (Mobile Applications)",
+      "product_description": "Custom mobile application solutions tailored to meet specific business needs.",
+      "features": [
+        "Customizable Solutions",
+        "Cross-Platform Support",
+        "User-Friendly Interfaces",
+        "API Integrations",
+        "Scalability"
+      ]
+    },
+    {
+      "product_name": "CRM",
+      "product_description": "A customer relationship management tool designed to help businesses manage interactions with customers.",
+      "features": [
+        "Customer Database",
+        "Sales Pipeline Management",
+        "Task and Activity Tracking",
+        "Customer Interaction History",
+        "Reporting and Analytics"
+      ]
+    },
+    {
+      "product_name": "Ecommerce",
+      "product_description": "A platform for building and managing online stores with product listings, payments, and orders.",
+      "features": [
+        "Product Catalog Management",
+        "Shopping Cart",
+        "Payment Gateway Integration",
+        "Order Tracking",
+        "Customer Reviews"
+      ]
+    },
+    {
+      "product_name": "HR Management",
+      "product_description": "A solution for managing employee records, attendance, and payroll in one place.",
+      "features": [
+        "Employee Database",
+        "Attendance Tracking",
+        "Payroll Management",
+        "Leave Management",
+        "Performance Evaluation"
+      ]
+    },
+    {
+      "product_name": "News Portal",
+      "product_description": "A dynamic platform to create and manage a news website with articles, categories, and user engagement.",
+      "features": [
+        "Article Management",
+        "Category and Tagging System",
+        "User Comments and Engagement",
+        "SEO Optimization",
+        "Advertisement Integration"
+      ]
+    },
+    {
+      "product_name": "Restaurant POS",
+      "product_description": "A point-of-sale system designed specifically for managing restaurant orders and payments efficiently.",
+      "features": [
+        "Order Management",
+        "Table Reservations",
+        "Payment Processing",
+        "Inventory Tracking",
+        "Staff Management"
+      ]
+    },
+    {
+      "product_name": "Others (Website Development)",
+      "product_description": "Custom website development solutions tailored to meet diverse business needs.",
+      "features": [
+        "Responsive Design",
+        "Customizable Features",
+        "SEO Optimization",
+        "Content Management System",
+        "Third-Party Integrations"
+      ]
+    },
+    {
+      "product_name": "Aadhar Verification API",
+      "product_description": "An API to integrate Aadhaar verification into your system for secure and accurate identity verification.",
+      "features": [
+        "Real-time Verification",
+        "Secure Data Transfer",
+        "Instant Aadhaar Validation",
+        "Integration with Government Databases",
+        "Compliance with Regulations"
+      ]
+    },
+    {
+      "product_name": "Bank Account Verification API",
+      "product_description": "An API that enables real-time bank account verification to ensure payment accuracy and security.",
+      "features": [
+        "Instant Account Validation",
+        "Bank Data Encryption",
+        "Real-time Verification",
+        "Secure API Integration",
+        "Account Holder Name Matching"
+      ]
+    },
+    {
+      "product_name": "BBPS API",
+      "product_description": "An API for integrating the Bharat Bill Payment System to streamline bill payments for utilities and services.",
+      "features": [
+        "Seamless Bill Payments",
+        "Multi-Utility Support",
+        "Real-time Transaction Status",
+        "Payment Confirmation",
+        "Secure API Transactions"
+      ]
+    },
+    {
+      "product_name": "CIBIL Verification API",
+      "product_description": "An API to access and verify CIBIL scores for creditworthiness assessments.",
+      "features": [
+        "Real-time Credit Score Access",
+        "Accurate Credit Reports",
+        "Secure Data Integration",
+        "Creditworthiness Verification",
+        "Comprehensive Credit History"
+      ]
+    },
+    {
+      "product_name": "Flight API",
+      "product_description": "An API to search and book flights, providing real-time data on availability and prices.",
+      "features": [
+        "Real-time Flight Search",
+        "Price Comparisons",
+        "Booking Management",
+        "Seat Selection",
+        "API Integration with Airlines"
+      ]
+    },
+    {
+      "product_name": "GST Verification API",
+      "product_description": "An API to verify GST numbers in real-time and ensure compliance with tax regulations.",
+      "features": [
+        "Instant GST Verification",
+        "Real-time GST Data Access",
+        "Secure API Integration",
+        "GST Compliance Management",
+        "Automated GST Validation"
+      ]
+    },
+    {
+      "product_name": "WhatsApp API",
+      "product_description": "An API to integrate WhatsApp messaging into your business for customer interactions and notifications.",
+      "features": [
+        "Automated Messaging",
+        "Secure End-to-End Encryption",
+        "Multimedia Support",
+        "Real-time Notifications",
+        "Message Templates"
+      ]
+    },
+    {
+      "product_name": "Hotel API",
+      "product_description": "An API to search and book hotels with real-time availability and pricing information.",
+      "features": [
+        "Real-time Hotel Availability",
+        "Price Comparisons",
+        "Booking Management",
+        "Room Selection",
+        "API Integration with Hotel Chains"
+      ]
+    },
+    {
+      "product_name": "Website UI/UX Designing",
+      "product_description": "Design services focused on creating intuitive and visually appealing user interfaces and experiences for websites.",
+      "features": [
+        "Responsive Design",
+        "User Flow Optimization",
+        "Wireframing and Prototyping",
+        "Cross-Platform Compatibility",
+        "UI/UX Research"
+      ]
+    },
+    {
+      "product_name": "Logo Designing",
+      "product_description": "Professional logo design services to create unique and memorable brand identities.",
+      "features": [
+        "Custom Logo Designs",
+        "Brand Identity Development",
+        "Multiple Design Concepts",
+        "High-Quality Vector Files",
+        "Revisions and Customization"
+      ]
+    },
+    {
+      "product_name": "Ads Poster Designing",
+      "product_description": "Creative ad poster design services to help businesses stand out in their marketing campaigns.",
+      "features": [
+        "Custom Poster Designs",
+        "High-Resolution Graphics",
+        "Brand Consistency",
+        "Multiple Layout Options",
+        "Print and Digital Formats"
+      ]
+    },
+    {
+      "product_name": "Others (Graphic Designing)",
+      "product_description": "Custom graphic design solutions tailored to meet the unique branding and marketing needs of businesses.",
+      "features": [
+        "Custom Graphic Designs",
+        "High-Quality Visuals",
+        "Branding and Marketing Materials",
+        "Multiple Design Revisions",
+        "Creative and Original Concepts"
+      ]
+    }
+  ]
+}
